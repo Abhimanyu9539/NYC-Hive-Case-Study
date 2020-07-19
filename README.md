@@ -56,20 +56,13 @@ HINT: Use the Data Dictionary provided to validate the data present in the recor
 
 Before answering the below questions, you need to create a clean, ORC partitioned table for analysis. Remove all the erroneous rows.
 
- 
-
 IMPORTANT: Before partitioning any table, make sure you run the below commands.
 
- 
-
-SET hive.exec.max.dynamic.partitions=100000;
-SET hive.exec.max.dynamic.partitions.pernode=100000;
+- SET hive.exec.max.dynamic.partitions=100000;
+- SET hive.exec.max.dynamic.partitions.pernode=100000;
 
  
-
- 
-
-- Analysis-I
+ Analysis-I
 
 - Compare the overall average fare per trip for November and December.
 - Explore the ‘number of passengers per trip’ - how many trips are made by each level of ‘Passenger_count’? Do most people travel solo or with other people?
