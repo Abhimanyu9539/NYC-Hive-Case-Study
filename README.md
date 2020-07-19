@@ -47,10 +47,10 @@ Here are the questions you need to answer.
 
 Basic Data Quality Checks
 
-How many records has each TPEP provider provided? Write a query that summarises the number of records of each provider.
-The data provided is for months November and December only. Check whether the data is consistent, and if not, identify the data quality issues. Mention all data quality issues in comments.
-You might have encountered unusual or erroneous rows in the dataset. Can you conclude which vendor is doing a bad job in providing the records using different columns of the dataset? Summarise your conclusions based on every column where these errors are present. For example,  There are unusual passenger count, i.e. 0 which is unusual.
-HINT: Use the Data Dictionary provided to validate the data present in the records provided.
+- How many records has each TPEP provider provided? Write a query that summarises the number of records of each provider.
+- The data provided is for months November and December only. Check whether the data is consistent, and if not, identify the data quality issues. Mention all data quality issues in comments.
+- You might have encountered unusual or erroneous rows in the dataset. Can you conclude which vendor is doing a bad job in providing the records using different columns of the dataset? Summarise your conclusions based on every column where these errors are present. For example,  There are unusual passenger count, i.e. 0 which is unusual.
+- HINT: Use the Data Dictionary provided to validate the data present in the records provided.
 
  
 
